@@ -1,0 +1,76 @@
+*{
+    margin: 8px;
+    border-radius: 5px;
+}
+header{
+    background-color: lightslategrey ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+.menu{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+.menu ul{
+    list-style: none;
+    color: dodgerblue;
+    background-color: rgb(63, 247, 7);
+    text-align: center;
+    align-items: center;
+}
+.menu li{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    background-color: rgb(247, 231, 9);
+    height: 20px;
+    text-decoration: none;
+}
+.submenu li{
+    display: none;
+}
+.menu li:hover .submenu li{
+    display: block;
+}
+.menu a:hover{
+    background: gold;
+    color: #fff;
+}
+
+.estructura{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+section{
+    grid-column: 2/5;
+    background-color: teal;
+}
+aside{
+    grid-column: 1/2;
+    background-color: olive;
+}
+footer{
+    text-align: center;
+    background-color: lightslategrey;
+    pad: 15px;
+}
+h2{
+    text-align: center; 
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
